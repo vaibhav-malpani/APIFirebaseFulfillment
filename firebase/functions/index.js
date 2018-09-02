@@ -11,8 +11,7 @@ app.intent('INTENT_NAME', (conv) => {
         host: 'HOST_ADDRESS',
         path: 'PATH',
         port: 443,
-        method: 'GET',
-        "rejectUnauthorized": false,
+        method: 'GET'
     };
 
     return get(options).then((result) => {
